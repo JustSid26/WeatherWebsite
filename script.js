@@ -1,4 +1,4 @@
-const apiKey = 'c4cda0c80da6ed7ec911c9e92ba496f0';
+const apiKey = 'please use your api key!';
 function convertUnixTimestamp(timestamp) {
     const date = new Date(timestamp * 1000);
     return date.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: true });
